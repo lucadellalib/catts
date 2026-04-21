@@ -6,12 +6,12 @@
 CATTS is a **non-autoregressive** text-to-speech model built on top of [DyCAST](https://github.com/lucadellalib/dycast) tokens.
 It takes a sequence of characters as input and predicts character-aligned speech tokens in parallel.
 
-Because DyCAST provides a one-to-one mapping between characters and speech tokens along the time axis, CATTS can use a standard
-non-autoregressive LLaMA-based encoder to predict one speech token per character. This makes inference extremely fast compared to
-autoregressive speech generation approaches, since all tokens are generated simultaneously.
+Because DyCAST provides a **one-to-one mapping between characters and speech tokens along the time axis**, CATTS can use a standard
+non-autoregressive LLaMA-based encoder to predict one speech token per character. This makes inference **extremely fast** compared
+to autoregressive speech generation approaches, since all tokens are generated **simultaneously**.
 
-Given a character sequence and a speaker embedding extracted from a reference prompt, CATTS can synthesize speech in the target voice.
-It can also leverage DyCAST voice-cloning capabilities by using additional reference audios during decoding, improving speaker similarity
+Given a character sequence and a speaker embedding extracted from a **reference prompt**, CATTS can synthesize speech in the target voice.
+It can also leverage DyCAST voice-cloning capabilities by using **additional reference audios** during decoding, improving speaker similarity
 and voice transfer quality.
 
 **Reference**: [Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization](https://arxiv.org/abs/2601.23174)
