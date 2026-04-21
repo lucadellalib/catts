@@ -14,9 +14,9 @@ Given a character sequence and a speaker embedding extracted from a reference pr
 It can also leverage DyCAST voice-cloning capabilities by using additional reference audios during decoding, improving speaker similarity
 and voice transfer quality.
 
-Reference: [Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization](https://arxiv.org/abs/2601.23174)
+**Reference**: [Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization](https://arxiv.org/abs/2601.23174)
 
-<img src="catts.png" width="500">
+<img src="catts.png" width="700">
 
 ---------------------------------------------------------------------------------------------------------
 
