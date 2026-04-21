@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/github/license/lucadellalib/catts)
 ![Stars](https://img.shields.io/github/stars/lucadellalib/catts?style=social)
 
-CATTS is a **non-autoregressive** text-to-speech model built on top of [DyCAST](https://github.com/lucadellalib/dycast) tokens.
+CATTS is a **non-autoregressive** 16 kHz text-to-speech model built on top of [DyCAST](https://github.com/lucadellalib/dycast) tokens.
 It takes a sequence of characters as input and predicts character-aligned speech tokens in parallel.
 
 Because DyCAST provides a **one-to-one mapping between characters and speech tokens along the time axis**, CATTS can use a standard
