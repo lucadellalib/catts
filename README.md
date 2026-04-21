@@ -14,6 +14,8 @@ Given a character sequence and a speaker embedding extracted from a **reference 
 It can also leverage DyCAST voice-cloning capabilities by using **additional reference audios** during decoding, improving speaker similarity
 and voice transfer quality.
 
+The model was trained on **LibriSpeech-460h**, as described in the reference paper.
+
 **Reference**: [Beyond Fixed Frames: Dynamic Character-Aligned Speech Tokenization](https://arxiv.org/abs/2601.23174)
 
 <img src="catts.png" width="700">
