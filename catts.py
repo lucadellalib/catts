@@ -671,6 +671,7 @@ class CATTS(nn.Module):
             repo_or_dir="lucadellalib/dycast",
             model="dycast",
             config="lucadellalib/dycast",
+            overrides={"retriever_name": None},
         )
         self.tokenizer = self.codec.char_aligner.processor.tokenizer
 
